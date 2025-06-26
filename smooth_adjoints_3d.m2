@@ -3,14 +3,14 @@
 R = QQ[x,y,z,w]
 -- Quartic adjoints
 -- Type 7
-A = 3*y+5/2 * z + w 
-B = 2*x + 2*y + 7/5*z + w 
-C = 3*x+4/5 *z + w 
-D = 2*x-2*y+1/2*z+w 
-E = -3*y+2*z+w 
-F = -2*x - 2*y + w 
-G = -3*x-3/5*y + w 
-H = -2*x+2*y+w 
+A = 3*y+3/2 * z + w 
+B = 2*x + 2*y + 2/5*z + w 
+C = 3*x-1/5 *z + w 
+D = 2*x-2*y-1/2*z+w 
+E = -3*y+z+w 
+F = -2*x - 2*y-z + w 
+G = -3*x-3/5*y-z + w 
+H = -2*x+2*y-z+w 
 s1 = ideal(A, D)
 s2 = ideal(A, F)
 s3 = ideal(B, D)
@@ -33,12 +33,12 @@ radical(J) == ideal(x,y,z,w)
 
 --Type 10
 A = -x + 3*y - 1/2*z + w
-B = x + 3*y + 1/5*z + w
+B = x + 3*y + 1/5*z + w 
 C = 3*x+y-z+w 
-D = 3*x-y+w
+D = 3*x-y+w 
 E = x-3*y+2*z + w 
 F = -x - 3*y + 3/2*z + w 
-G  = -3*x - y - z + w 
+G  = -3*x - y - 2/3*z + w 
 H = -3*x+y-3/2 * z + w 
 
 s1 = ideal(A, D)
