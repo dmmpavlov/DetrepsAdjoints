@@ -2,7 +2,7 @@ restart
 
 S = QQ[x0,x1,x2,x3];
 
--- Example 7.9 (combinatorial type 10 from Figure 5 in Britton-Dunitz)
+-- Example 6.9 (combinatorial type 10 from Figure 5 in Britton-Dunitz)
 F0 = x1 - 3*x2 + 2*x3 + x0;         -- adjacent to 1,2,3
 F1 = x1 + 3*x2 + 1/5*x3 + x0;       -- adjacent to 0,2,3,5,6
 F2 = 3*x1 - x2 + x0;                -- adjacent to 0,1,3,4,6
