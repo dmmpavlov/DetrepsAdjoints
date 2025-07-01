@@ -32,7 +32,7 @@ subadj = (V,subVertices) -> (
     else return print "Expected integer or list";
 );
 
------ exmample 6.13.
+----- exmample 5.13.
 -- vertex data of polygon (should be given in cw or ccw order)
 V0 = ideal(x1-3*x0, x2-3*x0); -- (3,3)
 V1 = ideal(x1-1*x0, x2-7*x0); -- (1,7)
