@@ -1,5 +1,6 @@
 -- In this file we verify that for each of 10 combinatorial types of 3-dimensional polytopes
 -- with simple facet hyperplane arrangement there is a representative with a smooth adjoint
+-- Types are enumerated accoding to Figures 4 and 5 in "A Complete Catalogue of Polyhedra with Eight or Fewer Vertices", Britton and Dunitz, 1973
 R = QQ[x,y,z,w]
 -- Quartic adjoints
 -- Type 7
